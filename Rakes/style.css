@@ -1,0 +1,77 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(19, 20, 20);
+    font-family: sans-serif;
+    font-weight: 10px;
+    position: relative;
+    margin-top:-5px;
+
+}
+h1::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: px;
+    background-color: #000000;
+    transition: all ease 1s;
+}
+h1:hover::after
+{
+    width: 280px;
+    
+}
+h1::selection
+{
+  color: rgb(130, 130, 74);
+  background-color: black;  
+}
+body
+{
+    background-color: gray ;
+    /* background:linear-gradient(
+        red to  green to yellow
+    ); */
+}
+.box
+{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(27, 29, 91);
+    overflow: hidden;
+    
+}
+.box img
+{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    transition: all ease 1s;
+
+}
+.box :hover img
+{
+    scale: 1.2;
+}
+button
+{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 12px 20px;
+    /* margin: 50px; */
+    border: none;
+    color: #fff;
+    background-color:lightgreen;
+    transition: all ease 0.5s;
+
+
+
+}
+button:hover
+{
+ box-shadow: 5px 5px 0px black;
+}

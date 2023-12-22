@@ -1,0 +1,73 @@
+*{
+    background-color: hsl(30, 38%, 92%);
+    
+}
+#main{
+ display: flex;
+ width: 750px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 75px;
+ /* border: 5px solid black; */
+ 
+}
+.section1 img
+{
+   /* border: 5px solid black; */
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+
+}
+.section2{
+ background-color: white;
+    height: 550px;
+    width: 400px;
+ 
+}
+.one
+{
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-left: 35px;
+    font-family: sans-serif;
+
+}
+.two
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -30px;
+    padding-left: -30px;
+
+}
+.three
+{
+    font-size: 15px;
+    margin-top: -10px;
+}
+.section2 h2
+{
+    margin-left: 35px;
+    font-size: 35px;
+    margin-bottom: -30px;
+    font-family: sans-serif;
+}
+.section2 del
+{
+    margin-left: 200px;
+    
+}
+.section2 button
+{
+ margin-left: 35px;
+ margin-top: 40px;
+ font-size: 20px;
+ background-color:hsl(158, 43%, 43%);
+ color: white;
+}
+.section2 button svg
+{
+    margin-right: 10px;
+    background: none;    
+}
